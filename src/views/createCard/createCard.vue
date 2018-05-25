@@ -112,6 +112,15 @@
                     });
                     return;
                 }
+                var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
+                if(!reg.test(this.email)){
+                    Toast({
+                        position: "middle",
+                        message: '请输入正确的邮箱',
+                        duration: 800
+                    });
+                    return;
+                }
                 if(this.email == ''){
                     Toast({
                         position: "middle",

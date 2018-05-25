@@ -9,7 +9,7 @@
 
 
 //      var dappAddress = "n22EbF2sCUDGA9GJBEc3KYcVUySwUYs3X1L"; // 测试网
-      var dappAddress = "n1jvW2HLSCrkkakwszFARfFbpH5Mfihex1W";// 主网
+      var dappAddress = "n1i7bowXym3csdUJ9biH7uhS8pSY11wBtL6";// 主网
 //      0d9e5ba944f5b3931d8088492755a0e389d2c7935be1ab05b05db2a9277986e7 主网合约地址
       var HttpRequest = require("nebulas").HttpRequest;
       var Neb = require("nebulas").Neb;
@@ -27,4 +27,4 @@
                   console.log('页面require nebpay 失败');
               }
           },0)
-      })</script><div id=app></div><script type=text/javascript src=/static/js/manifest-c364b1f63f3241d96322.js></script><script type=text/javascript src=/static/js/vendor-249b19168f02a29e874d.js></script><script type=text/javascript src=/static/js/main-4dd3d2a2ae6babf50927.js></script></body></html>
+      })</script><div id=app></div><script type=text/javascript src=/static/js/manifest-710496f5ab61be18308a.js></script><script type=text/javascript src=/static/js/vendor-249b19168f02a29e874d.js></script><script type=text/javascript src=/static/js/main-4dd3d2a2ae6babf50927.js></script></body></html>
